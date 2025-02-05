@@ -12,8 +12,8 @@ app.use(morgan('combined'))
 
 app.get("/", (req, res) => {
     res.send("Hello BALl");
-    
-})
+    res.send("Dom BAll");
+ })
 
 app.listen(port, () =>  {
    debug("Listening on Port :" + chalk.red(port));
